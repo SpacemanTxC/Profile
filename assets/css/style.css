@@ -5,6 +5,11 @@
     object-fit: scale-down;
     max-height: 500px;
     max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-
+}
+/* removed list item dots */
+ul {
+  list-style-type: none;
 }
