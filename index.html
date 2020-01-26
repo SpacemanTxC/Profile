@@ -31,12 +31,11 @@
                   <div class="row">
                       <div class="col-12">
                         <!-- Bootstrap for header running full body width -->
-                          <!-- fixed text being centered  -->
                         <div class="jumbotron jumbotron-fluid text-center">
                             <div class="container">
                               <h1 class="display-4">Tate Capra</h1>
                               <p class="lead">Full Stack Developer</p>
-                              <!-- add circle image of profile -->
+                              <!-- circle image of profile -->
                               <img src="assets/photo/tate1.jpg" class="rounded-circle mx-auto image1" alt="profile image">
                             </div>
                           </div>
@@ -53,30 +52,26 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                           <ul class="navbar-nav">
                             <!-- list items for the navbar -->
-                            <!-- Need to connect each list item to the correct section -->
                             <li class="nav-item active">
                               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Bio</a>
+                              <a class="nav-link" href="#bio_section">Bio</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Education</a>
+                              <a class="nav-link" href="#education">Education</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Work Experience</a>
+                              <a class="nav-link" href="#work_exp">Work Experience</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Photos</a>
+                              <a class="nav-link" href="#carouselExampleControls">Photos</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Certifications</a>
+                              <a class="nav-link" href="#certs_ach">Certifications and Achievements</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Achievements</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Projects</a>
+                              <a class="nav-link" href="#projects">Projects</a>
                             </li>
                           </ul>
                         </div>
@@ -108,7 +103,7 @@
 
             <div class="row">
               <div class="col-12">
-                <div class= "card education">
+                <div class= "card " id="education">
                 <div class="card-header text-center">Education</div>
 
                 <!-- List grooup for each of the items in the work section -->
@@ -148,7 +143,7 @@
               </div>
 
               <!--Work experience with list items  -->
-              <div class="row">
+              <div class="row" id="work_exp">
                 <div class="col-12">
                   <div class="card text-center">
                   <div class="card-header">
@@ -217,7 +212,8 @@
 
 
         <!-- Combine Certs and Achive into the same side by side sections  -->
-          <div class="row">
+        <!-- id goes with both sections but is only in certs -->
+          <div class="row " id= "certs_ach" >
             <!-- Split the col in half -->
             <div class="col-6">
                 <div class="card text-center">
@@ -253,7 +249,7 @@
           </div>
         </div>
 
-          <div class="row">
+          <div class="row " id="projects">
             <div class="col-12">
               <div class="card text-center">
                   <div class="card-header">
