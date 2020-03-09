@@ -15,3 +15,7 @@ ul {
 .background{
   background-color: #8bc34a;
 }
+/* makes the text responsive */
+.jobs_id{
+  font-size: 3vw;
+}
