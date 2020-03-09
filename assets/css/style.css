@@ -1,12 +1,5 @@
-/* image size bug */
-/* center image to page  */
-.imageSize  {
-    border: 1px solid #ddd;
-    object-fit: scale-down;
-    max-height: 500px;
-    max-width: 400px;
-    width: 100%;
-}
+
+
 /* removed list item dots */
 ul {
   list-style-type: none;
