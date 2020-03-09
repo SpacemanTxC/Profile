@@ -7,8 +7,8 @@ ul {
 
 /* change the profile image to fit in the circle */
 .image1 {
-    max-width: 250px;
     max-height: 250px;
+    max-width: inherit;
 }
 
 /* added background color */
