@@ -23,5 +23,7 @@ ul {
 /* changes the jobs section text to a different view when largers */
 @media screen and (min-width:1000px ){
     .jobs_id{
-      font-size: 1vw;}
+      font-size: 1vw;
+    }
+
 }
