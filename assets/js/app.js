@@ -2,7 +2,15 @@
 //button added to clear text and all div
 
 // var to store new page
-var newContactScreen = `
+var newContactScreen;
+
+function clearBody(elementID){
+    console.log("TEST Test");
+    document.getElementById(elementID).innerHTML = newContactScreen;
+
+}
+
+newContactScreen = `
 <!-- Header -->
   <div class='row'>
     <div class='col-12'>
@@ -26,10 +34,3 @@ var newContactScreen = `
           </div>
       </div>
 `;
-;
-
-function clearBody(elementID){
-    console.log("TEST Test");
-    document.getElementById(elementID).innerHTML = newContactScreen;
-
-}
