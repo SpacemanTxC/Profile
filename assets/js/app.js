@@ -33,4 +33,18 @@ newContactScreen = `
               </div>
           </div>
       </div>
+
+      <div class='row'>
+        <div class ='col-12'>
+        <div class= 'container'>
+          <h3>Contact Information:</h3>
+            <ul>
+              <li>Email: TateCapra@outlook.com</li>
+              <li>Phone: 832-515-2110</li>
+              <li>Linkedin: <a href='https://www.linkedin.com/in/tate-capra/' target='_blank'>
+                https://www.linkedin.com/in/tate-capra/</a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
 `;
