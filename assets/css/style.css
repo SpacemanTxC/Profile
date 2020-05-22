@@ -13,7 +13,7 @@ ul {
 
 /* added background color */
 .background{
-  background-color: #8bc34a;
+  background-color: 	#6B8E23;
 }
 /* makes the text responsive */
 .jobs_id{
@@ -39,4 +39,14 @@ ul {
 /* list of projects end of page */
 #projects{
     text-align: auto;
+}
+
+/* makes the container black with white letters
+    also makes it alittle transparent*/
+.jumbotron, .card, .col{
+  background-color: #000000;
+  opacity: 0.90;
+  color: #F0F8FF;
+  border-color: #F0FFFF;
+
 }
