@@ -5,6 +5,11 @@ ul {
   list-style-type: none;
 }
 
+/* text style */
+div {
+  font-family: "Rockwell";
+}
+
 /* change the profile image to fit in the circle */
 .image1 {
     max-height: 250px;
@@ -74,17 +79,18 @@ a:active {
 }
 /* fixes green link in nav bar */
   .nav-link{
-    background-color: white;
+    background-color: #F0FFFF;
   }
   /* fixes text color in work experience */
   #list-teacher, #list-research, #list-tutor, #list-trainer{
     background-color: black;
+    text-align: auto;
   }
 /* changes color of project links */
   a.extraColor{
     color: #6B8E23;
   }
-  
+
   /* color when link pushed */
   .list-group-item {
     background: black;
