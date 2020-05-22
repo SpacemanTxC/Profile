@@ -95,3 +95,7 @@ a:active {
   .list-group-item {
     background: black;
   }
+/* gives depth to title */
+div.container.extraColor{
+  text-shadow: 2px 2px #6B8E23;
+}
