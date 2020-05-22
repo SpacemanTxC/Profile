@@ -2,7 +2,7 @@
 //button added to clear text and all div
 
 // var to store new page
-var newContactScreen;
+let newContactScreen;
 
 function clearBody(elementID){
     console.log("TEST Test");
