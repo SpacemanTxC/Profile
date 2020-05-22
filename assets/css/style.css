@@ -43,10 +43,49 @@ ul {
 
 /* makes the container black with white letters
     also makes it alittle transparent*/
-.jumbotron, .card, .col{
+.jumbotron, .card, .col, .navbar{
   background-color: #000000;
   opacity: 0.90;
   color: #F0F8FF;
   border-color: #F0FFFF;
-
 }
+
+/* color for unvisited link color azure */
+a:link {
+  color: #F0FFFF;
+}
+/* visited link white */
+a:visited {
+  color: #F8F8FF;
+}
+/* mouse over link grey */
+a:hover{
+  color: #808080;
+}
+/* active  */
+a:active {
+  color: #6B8E23;
+}
+
+/* used to highlight green */
+.active.active {
+  background-color: #6B8E23;
+  border-color: #F0F8FF;
+}
+/* fixes green link in nav bar */
+  .nav-link{
+    background-color: white;
+  }
+  /* fixes text color in work experience */
+  #list-teacher, #list-research, #list-tutor, #list-trainer{
+    background-color: black;
+  }
+/* changes color of project links */
+  a.extraColor{
+    color: #6B8E23;
+  }
+  
+  /* color when link pushed */
+  .list-group-item {
+    background: black;
+  }
