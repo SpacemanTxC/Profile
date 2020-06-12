@@ -1,261 +1,274 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!-- meta tags -->
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <!-- bootstrap req link  -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Tate's Profile</title>
+  <!-- bootstrap req link  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  </head>
-  <body>
+  <title>Tate's Profile</title>
 
-      <!-- Body Div -->
-        <!-- Create Grind BootStrap -->
-          <!-- 7 Rows -->
-              <!-- Each Row has 1 column each row max 12 container size for BootStrap -->
-    <div class="container-fluid background" id="mainBody">
-      <!-- Full Body Page div class -->
-        <!--div class for each section -->
+</head>
 
-            <!-- Header -->
-              <div class="row">
-                <div class="col-12">
-                  <!-- second level of row for name and nav bar -->
-                  <div class="row">
-                    <!-- ************************************************** -->
-                      <div class="col-12">
-                        <!-- Bootstrap for header running full body width -->
-                        <div class="jumbotron jumbotron-fluid text-center">
-                            <div class="container extraColor">
-                              <h1 class="display-4">Tate Capra</h1>
-                              <p class="lead">Full Stack Web Developer & Software Engineer</p>
-                              <!-- circle image of profile -->
-                              <img src="assets/photo/tate1.jpg" class="rounded-circle mx-auto image1" alt="profile image"/>
-                              <!-- space for contact button -->
-                              </br></br>
-                              <!-- button to clearbody and show contact info -->
-                              <button onclick="clearBody('mainBody')">Contact Info</button>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-                  <!-- Nav Bar Bootstrap with push buttons links to sections-->
-                  <div class="row">
-                    <div class="col-12">
-                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Tate Capra</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
-                            <!-- list items for the navbar -->
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#bio_section">Bio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#education">Education</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#work_exp">Work Experience</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#carouselExampleControls">Photos</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#certs_ach">Certifications and Achievements</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#projects">Projects</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </nav>
+<body>
 
-                    </div>
-                  </div>
+  <!-- Body Div -->
+  <!-- Create Grind BootStrap -->
+  <!-- 7 Rows -->
+  <!-- Each Row has 1 column each row max 12 container size for BootStrap -->
+  <div class="container-fluid background" id="mainBody">
+    <!-- Full Body Page div class -->
+    <!--div class for each section -->
+
+    <!-- Header -->
+    <div class="row">
+      <div class="col-12">
+        <!-- second level of row for name and nav bar -->
+        <div class="row">
+          <!-- ************************************************** -->
+          <div class="col-12">
+            <!-- Bootstrap for header running full body width -->
+            <div class="jumbotron jumbotron-fluid text-center">
+              <div class="container extraColor">
+                <h1 class="display-4">Tate Capra</h1>
+                <p class="lead">Full Stack Web Developer & Software Engineer</p>
+                <!-- circle image of profile -->
+                <img src="assets/photo/tate1.jpg" class="rounded-circle mx-auto image1" alt="profile image" />
+                <!-- space for contact button -->
+                </br></br>
+                <!-- button to clearbody and show contact info -->
+                <button onclick="clearBody('mainBody')">Contact Info</button>
               </div>
             </div>
-
-            <!-- About Me section with the bio added -->
-            <div class="row">
-              <div class="col-12" id="bio_section">
-                <div class="card">
-                    <div class="card-header text-center">
-                      <h4>Bio</h4>
-                    </div>
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p>Hello! My name is Tate Capra and I am from Dallas, Texas. I am a junior
-                        Full Stack Web Developer and Software Engineer currently looking for a new opportunity. This website shows some of my
-                        talents as well as gives a little information about me. I am into building computers, riding motorcycles,
-                      camping, reading, and Star Wars. In my free time I have been working on personal projects building websites and applications.</p>
-                      </blockquote>
-                    </div>
-                  </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-12">
-                <div class= "card " id="education">
-                <div class="card-header text-center"><h4>Education</h4></div>
-
-
-
-                <!-- List grooup for each of the items in the work section -->
-                            <div class="list-group">
-                              <a href="https://techbootcamps.utexas.edu/coding/" class="list-group-item list-group-item-action" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                  <h5 class="mb-1">University of Texas at Austin</h5>
-                                  <small>Fall 2017 - Spring 2018</small>
-                                </div>
-                                <p class="mb-1"><u>Certified Full Stack Web Developer & Software Engineer</u> - Successfully completed the full stack web developer
-                                   coding bootcamp at UT Austin where I worked hands-on learning how to code both front and backend, creating web based applications.
-                                 </p>
-                              </a>
-                              <a href="http://www.byui.edu/sociology-social-work/sociology" class="list-group-item list-group-item-action" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                  <h5 class="mb-1">Brigham Young University at Idaho</h5>
-                                  <small class="text-muted">Winter 2013 - Spring 2017</small>
-                                </div>
-                                <p class="mb-1"><u>Bachelors of Science in Sociology & Statistics</u> in Data/Statistical Analysis - Graduated from BYU-I with a
-                                  bachelor of science in sociology. My coursework focused on social statistics, coding, and qualitative and quantitative data analytics.</p>
-                              </a>
-                              <a href="https://www.humbleisd.net/khs" class="list-group-item list-group-item-action" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                  <h5 class="mb-1">Kingwood High School</h5>
-                                  <small class="text-muted">Fall 2007 - Summer 2011</small>
-                                </div>
-                                <p class="mb-1"><u>High school degree from Kingwood High.</u> During my high school career I was intrested in music, sports, scouting, and video games(haha).
-                                While attending school I was on the lacrosse team which I played midfield on varsity. I was also into camping through scouting and was able to reach the rank of
-                                Eagle Scout in high school. Outside of school I was in a band with some of my friends were I sang and played guitar. Through high school I tired to push myself and did
-                                well in Mathmathics and Science. Because of my commitment to this I was able to attend college and truly gain a love for learning.</p>
-                              </a>
-                            </div>
-                          </div>
-                </div>
-              </div>
-
-              <!--Work experience with list items  -->
-              <div class="row" id="work_exp">
-                <div class="col-12">
-                  <div class="card text-center">
-                  <div class="card-header">
-                    <h5>Work Experience</h5>
-                  </div>
-                  <!-- List from Bootstrap that adds buttons to show text -->
-                    <!-- each list item is connected to an ation through its id -->
-                    <!-- each of buttoms are connected to one personal work experience -->
-                        <div class="row">
-                          <div class="col-4">
-                            <div class="list-group" id="list-tab" role="tablist">
-                              <a class="list-group-item list-group-item-action active" id="list-teacher-list" data-toggle="list" href="#list-teacher" role="tab" aria-controls="teacher"><p class= "jobs_id">Math Teacher</p></a>
-                              <a class="list-group-item list-group-item-action" id="list-research-list" data-toggle="list" href="#list-research" role="tab" aria-controls="research"><p class= "jobs_id">Research Asst.</p></a>
-                              <a class="list-group-item list-group-item-action" id="list-tutor-list" data-toggle="list" href="#list-tutor" role="tab" aria-controls="tutor"><p class= "jobs_id">BYUI Tutor & Aide</p></a>
-                              <a class="list-group-item list-group-item-action" id="list-trainer-list" data-toggle="list" href="#list-trainer" role="tab" aria-controls="trainer"><p class= "jobs_id">Personal Trainer</p></a>
-                            </div>
-                          </div>
-                          <div class="col-8" id= "whiteTextColor">
-                            <div class="tab-content" id="nav-tabContent">
-                              <div class="tab-pane fade show active" id="list-teacher" role="tabpanel" aria-labelledby="list-teacher-list">
-                                Inspired inner-city middle school students through the application of a unique approach to mathematics,
-                                focusing on basic algebra. In addition to teaching, I also led numerous student clubs and activities such as basketball and computer science.
-                              </div>
-                              <div class="tab-pane fade" id="list-research" role="tabpanel" aria-labelledby="list-research-list">Collaborated with the Research and Business Development
-                                Center under a state grant from Idaho, bringing to light the staggering statistics on youth vaping in the state. Our area of focus was e-cigarette usage for youth ages 12-15.
-                              </div>
-                              <div class="tab-pane fade" id="list-tutor" role="tabpanel" aria-labelledby="list-tutor-list">Hand-selected as the departmental aide and tutor for senior level statistics for the university.
-                                This included teaching students how to work with SPSS and using analysis tests such as Chi-Square, T-Test, and ANOVA.
-                              </div>
-                              <div class="tab-pane fade" id="list-trainer" role="tabpanel" aria-labelledby="list-trainer-list">As an adviser and trainer at the YMCA, I provided one-on-one new member orientation for the gym and
-                                 assisted in gym-client relations. I lead and designed youth camp for Houston Texans Youth Triathlon.
-                               </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-             </div>
-           </div>
-
-<!-- Add spacing to the photo container -->
-  <!-- add photo carousel in future -->
-           <div class="row">
-             <div class="col-12">
-               <img src="assets/photo/tate4.JPG" id="imgDev" alt="Image Tate">
-             </div>
-           </div>
-
-
-        <!-- Combine Certs and Achive into the same side by side sections  -->
-        <!-- id goes with both sections but is only in certs -->
-          <div class="row">
-            <!-- Split the col in half -->
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header text-center" id="certs_ach">
-                        <h5>Certifications & Achievements</h5>
-                      </div>
-                      <div class = "row">
-                        <div class ="col-sm-6">
-                          <div class="list">
-                            <ul>
-                              <li>First Aid & CPR</li>
-                              <li>Mental Health First Aid</li>
-                              <li>NASM Personal Trainer</li>
-                              <li>BYUI SPSS Statistics Software</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class= "col-sm-6">
-                        <div class="list">
-                          <ul>
-                            <li>Boy Scouts: Eagle Scout</li>
-                            <li>BYU-Idaho Flag Football Champion</li>
-                            <li>Coached BYUI Tackle Football Champion</li>
-                          </ul>
-                        </div>
-                      </div>
-                </div>
           </div>
+        </div>
+        <!-- Nav Bar Bootstrap with push buttons links to sections-->
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Tate Capra</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <!-- list items for the navbar -->
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bio_section">Bio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#work_exp">Work Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#carouselExampleControls">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#certs_ach">Certifications and Achievements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+          </div>
+        </div>
       </div>
-</div>
+    </div>
 
-          <div class="row ">
-            <div class="col-12">
-              <div class="card text-center">
-                  <div class="card-header">
-                    <h5>Projects</h5>
-                  </div>
-                  <div class="list" id="projects">
-                      <ul>
-                        <!-- add external link when project is completed -->
-                        <li><a href="https://github.com/Twcap" target="_blank" class="extraColor">Git Profile Page</a></li>
-                        <li><a href="https://github.com/Twcap/StarWarsQuiz" target="_blank" class="extraColor">Star Wars Quiz</a></li>
-                        <li><a href="https://github.com/Twcap/FizzBuzzJS" target="_blank" class="extraColor">Fizz Buzz</a></li>
-                        <li><a href="https://github.com/Twcap/Veterinary-Reference-Guide" target="_blank" class="extraColor">Veterinary Reference App</a></li>
-                      </ul>
-                  </div>
+    <!-- About Me section with the bio added -->
+    <div class="row">
+      <div class="col-12" id="bio_section">
+        <div class="card">
+          <div class="card-header text-center">
+            <h4>Bio</h4>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Hello! My name is Tate Capra and I am from Dallas, Texas. I am a junior
+                Full Stack Web Developer and Software Engineer currently looking for a new opportunity. This website shows some of my
+                talents as well as gives a little information about me. I am into building computers, riding motorcycles,
+                camping, reading, and Star Wars. In my free time I have been working on personal projects building websites and applications.</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="card " id="education">
+          <div class="card-header text-center">
+            <h4>Education</h4>
+          </div>
+
+
+
+          <!-- List grooup for each of the items in the work section -->
+          <div class="list-group">
+            <a href="https://techbootcamps.utexas.edu/coding/" class="list-group-item list-group-item-action" target="_blank">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">University of Texas at Austin</h5>
+                <small>Fall 2017 - Spring 2018</small>
+              </div>
+              <p class="mb-1"><u>Certified Full Stack Web Developer & Software Engineer</u> - Successfully completed the full stack web developer
+                coding bootcamp at UT Austin where I worked hands-on learning how to code both front and backend, creating web based applications.
+              </p>
+            </a>
+            <a href="http://www.byui.edu/sociology-social-work/sociology" class="list-group-item list-group-item-action" target="_blank">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Brigham Young University at Idaho</h5>
+                <small class="text-muted">Winter 2013 - Spring 2017</small>
+              </div>
+              <p class="mb-1"><u>Bachelors of Science in Sociology & Statistics</u> in Data/Statistical Analysis - Graduated from BYU-I with a
+                bachelor of science in sociology. My coursework focused on social statistics, coding, and qualitative and quantitative data analytics.</p>
+            </a>
+            <a href="https://www.humbleisd.net/khs" class="list-group-item list-group-item-action" target="_blank">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Kingwood High School</h5>
+                <small class="text-muted">Fall 2007 - Summer 2011</small>
+              </div>
+              <p class="mb-1"><u>High school degree from Kingwood High.</u> During my high school career I was intrested in music, sports, scouting, and video games(haha).
+                While attending school I was on the lacrosse team which I played midfield on varsity. I was also into camping through scouting and was able to reach the rank of
+                Eagle Scout in high school. Outside of school I was in a band with some of my friends were I sang and played guitar. Through high school I tired to push myself and did
+                well in Mathmathics and Science. Because of my commitment to this I was able to attend college and truly gain a love for learning.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Work experience with list items  -->
+    <div class="row" id="work_exp">
+      <div class="col-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h5>Work Experience</h5>
+          </div>
+          <!-- List from Bootstrap that adds buttons to show text -->
+          <!-- each list item is connected to an ation through its id -->
+          <!-- each of buttoms are connected to one personal work experience -->
+          <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-teacher-list" data-toggle="list" href="#list-teacher" role="tab" aria-controls="teacher">
+                  <p class="jobs_id">Math Teacher</p>
+                </a>
+                <a class="list-group-item list-group-item-action" id="list-research-list" data-toggle="list" href="#list-research" role="tab" aria-controls="research">
+                  <p class="jobs_id">Research Asst.</p>
+                </a>
+                <a class="list-group-item list-group-item-action" id="list-tutor-list" data-toggle="list" href="#list-tutor" role="tab" aria-controls="tutor">
+                  <p class="jobs_id">BYUI Tutor & Aide</p>
+                </a>
+                <a class="list-group-item list-group-item-action" id="list-trainer-list" data-toggle="list" href="#list-trainer" role="tab" aria-controls="trainer">
+                  <p class="jobs_id">Personal Trainer</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-8" id="whiteTextColor">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-teacher" role="tabpanel" aria-labelledby="list-teacher-list">
+                  Inspired inner-city middle school students through the application of a unique approach to mathematics,
+                  focusing on basic algebra. In addition to teaching, I also led numerous student clubs and activities such as basketball and computer science.
+                </div>
+                <div class="tab-pane fade" id="list-research" role="tabpanel" aria-labelledby="list-research-list">Collaborated with the Research and Business Development
+                  Center under a state grant from Idaho, bringing to light the staggering statistics on youth vaping in the state. Our area of focus was e-cigarette usage for youth ages 12-15.
+                </div>
+                <div class="tab-pane fade" id="list-tutor" role="tabpanel" aria-labelledby="list-tutor-list">Hand-selected as the departmental aide and tutor for senior level statistics for the university.
+                  This included teaching students how to work with SPSS and using analysis tests such as Chi-Square, T-Test, and ANOVA.
+                </div>
+                <div class="tab-pane fade" id="list-trainer" role="tabpanel" aria-labelledby="list-trainer-list">As an adviser and trainer at the YMCA, I provided one-on-one new member orientation for the gym and
+                  assisted in gym-client relations. I lead and designed youth camp for Houston Texans Youth Triathlon.
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add spacing to the photo container -->
+    <!-- add photo carousel in future -->
+    <div class="row">
+      <div class="col-12">
+        <img src="assets/photo/tate4.JPG" id="imgDev" alt="Image Tate">
+      </div>
+    </div>
+
+
+    <!-- Combine Certs and Achive into the same side by side sections  -->
+    <!-- id goes with both sections but is only in certs -->
+    <div class="row">
+      <!-- Split the col in half -->
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header text-center" id="certs_ach">
+            <h5>Certifications & Achievements</h5>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="list">
+                <ul>
+                  <li>First Aid & CPR</li>
+                  <li>Mental Health First Aid</li>
+                  <li>NASM Personal Trainer</li>
+                  <li>BYUI SPSS Statistics Software</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="list">
+                <ul>
+                  <li>Boy Scouts: Eagle Scout</li>
+                  <li>BYU-Idaho Flag Football Champion</li>
+                  <li>Coached BYUI Tackle Football Champion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h5>Projects</h5>
+          </div>
+          <div class="list" id="projects">
+            <ul>
+              <!-- add external link when project is completed -->
+              <li><a href="https://github.com/Twcap" target="_blank" class="extraColor">Git Profile Page</a></li>
+              <li><a href="https://github.com/Twcap/StarWarsQuiz" target="_blank" class="extraColor">Star Wars Quiz</a></li>
+              <li><a href="https://github.com/Twcap/FizzBuzzJS" target="_blank" class="extraColor">Fizz Buzz</a></li>
+              <li><a href="https://github.com/Twcap/Veterinary-Reference-Guide" target="_blank" class="extraColor">Veterinary Reference App</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-        <!-- bootstrap req links for jquery  -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- bootstrap req links for jquery  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-          <!-- link to js assets -->
-        <script src="assets/js/app.js"></script>
-        <!-- link to css assets -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </body>
+  <!-- link to js assets -->
+  <script src="assets/js/app.js"></script>
+  <!-- link to css assets -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</body>
+
 </html>

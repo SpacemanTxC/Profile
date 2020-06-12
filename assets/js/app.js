@@ -4,9 +4,9 @@
 // var to store new page
 let newContactScreen;
 
-function clearBody(elementID){
-    console.log("TEST Test");
-    document.getElementById(elementID).innerHTML = newContactScreen;
+function clearBody(elementID) {
+  console.log("TEST Test");
+  document.getElementById(elementID).innerHTML = newContactScreen;
 
 }
 
