@@ -28,7 +28,7 @@ div {
 @media screen and (min-width:1000px) {
   .jobs_id {
     font-size: 1vw;
-  }
+  };
 }
 
 /* photo section changes */
@@ -45,6 +45,7 @@ div {
 /* list of projects end of page */
 #projects {
   text-align: center;
+  padding-right: 2%;
 }
 
 /* makes the container black with white letters
