@@ -28,7 +28,7 @@ div {
 @media screen and (min-width:1000px) {
   .jobs_id {
     font-size: 1vw;
-  };
+  }
 }
 
 /* photo section changes */
@@ -39,7 +39,7 @@ div {
   max-height: 800px;
   display: flex;
   align-items: center;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 /* list of projects end of page */
