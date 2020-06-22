@@ -8,9 +8,10 @@
 
   <!-- bootstrap req link  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- jQuery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <title>Tate's Profile</title>
-
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                 <!-- space for contact button -->
                 </br></br>
                 <!-- button to clearbody and show contact info -->
-                <button onclick="clearBody('mainBody')">Contact Info</button>
+                <button id="contactButton">Contact Info</button>
               </div>
             </div>
           </div>
@@ -242,8 +243,8 @@
 
     <div class="row ">
       <div class="col-12">
-        <div class="card text-center">
-          <div class="card-header">
+        <div class="card">
+          <div class="card-header text-center">
             <h5>Projects</h5>
           </div>
           <div class="list" id="projects">

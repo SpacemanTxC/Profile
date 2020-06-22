@@ -37,11 +37,14 @@ div {
   max-width: inherit;
   height: 100%;
   max-height: 800px;
+  display: flex;
+  align-items: center;
+  object-fit: fill;
 }
 
 /* list of projects end of page */
 #projects {
-  text-align: auto;
+  text-align: center;
 }
 
 /* makes the container black with white letters
