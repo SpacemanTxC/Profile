@@ -1,6 +1,6 @@
 # Tate Capra Full Stack Web Developer Profile
 
-Hello! My name is Tate and I am from Dallas, Texas.
+Hello! My name is Tate.
 
 This is my developer profile giving a background, projects, and other information regarding me as a developer.
 
