@@ -16,7 +16,7 @@ div {
 
 /* added background color */
 .background {
-  background-color: #6B8E23;
+  background-color: #a7d1a7;
 }
 
 /* makes the text responsive */
@@ -74,12 +74,12 @@ a:hover {
 
 /* active  */
 a:active {
-  color: #6B8E23;
+  color: #a7d1a7;
 }
 
 /* used to highlight green */
 .active.active {
-  background-color: #6B8E23;
+  background-color: #a7d1a7;
   border-color: #F0F8FF;
 }
 
@@ -96,7 +96,7 @@ a:active {
 
 /* changes color of project links */
 a.extraColor {
-  color: #6B8E23;
+  color: #a7d1a7;
 }
 
 /* color when link pushed */
@@ -104,7 +104,7 @@ a.extraColor {
   background: black;
 }
 
-/* gives depth to title */
+/* gives depth to title
 div.container.extraColor {
-  text-shadow: 2px 2px #6B8E23;
-}
+  text-shadow: 2px 2px #a7d1a7;
+} */
