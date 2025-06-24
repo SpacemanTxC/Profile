@@ -6,4 +6,4 @@ This is my developer profile giving a background, projects, and other informatio
 
 <b>Contact Info</b>: <br/>
 Profile Page: https://spacemantxc.github.io/Profile/<br/>
-Linkedin: www.linkedin.com/in/tate-capra
+
